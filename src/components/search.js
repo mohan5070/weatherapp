@@ -77,8 +77,7 @@ class Search extends Component {
 }
 
 Search.propTypes = {
-  background: PropTypes.string.isRequired,
-  geocodeResults: PropTypes.object.isRequired
+  background: PropTypes.string.isRequired
 };
 
 const mapStateToProps = state => ({
