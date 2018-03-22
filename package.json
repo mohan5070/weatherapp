@@ -2,6 +2,9 @@
   "name": "weatherapp",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
+=======
+>>>>>>> 1d0eb8646da3aab450cd391c06f88516b59f544e
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.2.0",
