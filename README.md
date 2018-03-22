@@ -1,4 +1,6 @@
 Weather App
+===================
+
 This is just a demo app to check weather of any location using react, redux, es6.
 
 Setup
