@@ -1,0 +1,144 @@
+html {
+    background-color: #fff;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+body,
+#root,
+.page-wrapper {
+    height: 100%;
+    background-color: #fcfcfc;
+}
+
+.suggestion-icon {
+    margin-right: 8px;
+}
+
+.fa.fa-map-marker.header {
+    color: #e53935;
+}
+
+.search-input,
+.search-input:focus,
+.search-input:active {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border: honeydew;
+    display: block;
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.autocomplete-container {
+    border-bottom: honeydew;
+    border-left: honeydew;
+    border-right: honeydew;
+    border-top: 1px solid #e6e6e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 2px 2px;
+}
+
+.suggestion-item {
+    padding: 4px;
+    text-align: left;
+}
+
+#PlacesAutocomplete__root {
+    margin-top: 0;
+    padding-top: 7rem;
+    display: block;
+}
+
+.alert {
+    background: white;
+    border: 1px solid #efefef;
+}
+
+.big-text {
+    font-size: 70px;
+}
+
+@media (max-width: 480px) {
+    .autocomplete-container {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .alert {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        -webkit-animation: fadein .75s;
+        -moz-animation: fadein .75s;
+        -ms-animation: fadein .75s;
+        -o-animation: fadein .75s;
+        animation: fadein .75s;
+    }
+    .btn {
+        margin-top: 1.5rem;
+    }
+    .form-group {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        width: 50%;
+    }
+}
+
+.geocoding-results {
+    text-align: left;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
