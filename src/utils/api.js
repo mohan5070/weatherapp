@@ -1,5 +1,5 @@
 const API = {
-    ROOT_PATH: 'https://api.openweathermap.org/',
+    ROOT_PATH: 'http://api.openweathermap.org/',
     WEATHER: 'data/2.5/weather',
     IMAGE_PATH: 'img/w/',
     CONFIG: {
